@@ -1,0 +1,62 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+5
+1
+5
+valor
+7
+0
+1
+13
+valor>=100000
+6
+2
+4
+desc
+10
+valor*0.01
+5
+total
+10
+valor-desc
+4
+1
+27
+'el subtotal es de ', valor
+4
+1
+24
+'su desc fue de ' , desc
+4
+1
+32
+'su total a pagar es de ', total
+13
+6
+2
+4
+desc
+10
+valor*0.05
+5
+total
+10
+valor-desc
+4
+1
+26
+'el subtotal es de', valor
+4
+1
+29
+'su descuento fue de ' , desc
+4
+1
+32
+'su total a pagar es de ', total
+13
+1

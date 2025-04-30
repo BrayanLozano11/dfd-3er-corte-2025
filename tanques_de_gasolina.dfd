@@ -1,0 +1,253 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+69
+"Digite el numero de galones que le va a echar al tanque A corriente"
+5
+1
+6
+tanq_A
+4
+1
+65
+"Digite el numero de galones que le va a echar al tanque B extra"
+5
+1
+6
+tanq_B
+6
+2
+5
+gal_A
+5
+14900
+5
+gal_B
+5
+19500
+6
+3
+7
+total_A
+14
+gal_A * tanq_A
+7
+total_B
+14
+gal_B * tanq_B
+5
+gasto
+17
+total_A + total_B
+4
+1
+41
+"el tanque A tiene: ", tanq_A, " galones"
+4
+1
+41
+"el tanque B tiene: ", tanq_B, " galones"
+4
+1
+55
+"El gasto total de la compra fue de: ", gasto, " pesos"
+4
+1
+108
+"¿Señor admin desea cambiar el valor de los galones para la venta?  digite 1 para (SI) o digite 0 para (NO)"
+5
+1
+3
+num
+7
+0
+1
+5
+num=1
+13
+4
+1
+48
+"digite el cambio de valor para el tanque A y B"
+5
+1
+12
+gal_A, gal_B
+6
+2
+5
+gal_A
+5
+gal_A
+5
+gal_B
+5
+gal_B
+4
+1
+117
+"el nuevo valor del tanque A (corriente) es de: ",  gal_A, "      el nuevo valor del tanque B (Extra) es de: ", gal_B
+13
+6
+2
+7
+venta_A
+1
+0
+7
+venta_B
+1
+0
+6
+3
+8
+decision
+1
+0
+5
+con_A
+1
+0
+5
+con_B
+1
+0
+6
+2
+5
+acu_A
+1
+0
+5
+acu_B
+1
+0
+9
+1
+24
+tanq_A>10 or tanq_B >10 
+9
+1
+24
+decision=1 or decision=0
+4
+1
+146
+"Señor cliente cuantos galones de gasolina va a comprar si desea comprar gasolina corriente digite (1) si desea comprar gasolina extra digite (2)"
+5
+1
+6
+compra
+7
+0
+1
+8
+compra=1
+4
+1
+43
+"¿cuantos galones de gasolina extra desea?"
+5
+1
+6
+cant_B
+7
+0
+1
+27
+cant_B>0 and cant_B<=tanq_B
+4
+1
+39
+"NO SE PUEDE NO HAY MAS GASOLINA EXTRA"
+13
+6
+3
+6
+tanq_B
+13
+tanq_B-cant_B
+7
+venta_B
+12
+gal_B*cant_B
+5
+con_B
+12
+con_B+cant_B
+6
+1
+5
+acu_B
+13
+acu_B+venta_B
+13
+13
+4
+1
+47
+"¿cuantos galones de gasolina corriente desea?"
+5
+1
+6
+cant_A
+7
+0
+1
+28
+cant_A >0 and cant_A<=tanq_A
+4
+1
+43
+"NO SE PUEDE NO HAY MAS GASOLINA CORRIENTE"
+13
+6
+3
+6
+tanq_A
+13
+tanq_A-cant_A
+7
+venta_A
+12
+gal_A*cant_A
+5
+con_A
+12
+con_A+cant_A
+6
+1
+5
+acu_A
+13
+acu_A+venta_A
+13
+13
+4
+1
+99
+"¿Señor administrador desea seguir vendiendo gasolina? digite (1) para (SI) o digite (2) para (NO)"
+5
+1
+8
+decision
+11
+11
+4
+1
+110
+"se vendieron:  ", con_A, " galones de gasolina corriente", " y el total de la venta fue de: ", acu_A, "pesos"
+4
+1
+105
+"se vendieron:  ", con_B," galones de gasolina extra", " y el total de la venta fue de: ", acu_B, "pesos"
+4
+1
+41
+"La ganancia total fue de: ", acu_A+acu_B
+1
